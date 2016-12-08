@@ -1,0 +1,69 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+.background-img {
+  background: url("../img/hk.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div#shade-grey {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.75);
+  margin-top: 20%;
+}
+
+div#name, div#role {
+  font-family: 'Aref Ruqaa', serif;
+  display: inline;
+  color: white;
+  position: absolute;
+}
+
+div#name {
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+div#role {
+  margin-left: 20%;
+  bottom: 17px;
+}
+
+nav#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.circleMenu > a {
+  text-decoration: none;
+  color: black;
+}
+
+div.circleMenu {
+  margin-top: 25px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(210, 105, 30, 0.85);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+  font-size: 19px;
+}
+
+div.circleMenu:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  background: rgba(210, 105, 30, 0.95);
+}
